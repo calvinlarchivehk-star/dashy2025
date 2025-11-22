@@ -1,22 +1,17 @@
 pageInfo:
   title: 追剧PK(zjpk.tv) - 2025老司机宇宙核弹站 | 一站射穿你鸡儿
   description: 短剧刷到吐血 | 91麻豆糖心精东4K无码日更几万部射到肾虚 | 黑料吃瓜实时爆 | JAV里番人妖SM重口核爆 | TG最骚频道一条龙 | 老司机进来就再也出不去了直接射穿裤子！！！
+
   navLinks:
     - title: 永不迷路备份（jsDelivr国内秒开）
       path: https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@main/conf.yml
-  footer: |
-    <div style="text-align:center;padding:30px 20px;color:#ff0048;font-size:17px;font-weight:bold;background:rgba(0,0,0,0.6);border-radius:15px;margin:30px;border:3px solid #ff0048;box-shadow: 0 0 20px #ff0048;">
-      <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-      <span id="busuanzi_container_site_pv">全站已射 <span id="busuanzi_value_site_pv"></span> 次</span> •
-      <span id="busuanzi_container_site_uv">硬核老司机 <span id="busuanzi_value_site_uv"></span> 人</span><br>
-      最后更新: <script>
-        var d = new Date();
-        d.setDate(d.getDate()); // 永远显示今天，装逼到2099年
-        document.write(d.getFullYear() + "年" + (d.getMonth()+1) + "月" + d.getDate() + "日");
-      </script>（实时热更·永不打烊·鸡儿永远硬）<br>
-      ⚠️ 站点被封？立刻进TG频道@t.me/zjpk888 30秒发最新地址<br>
-      © 2025 追剧PK(zjpk.tv) - 宇宙最硬老司机终极天堂 | 全局密码：8888（改成你鸡儿长度更刺激）
-    </div>
+
+footer: |
+  <div style="text-align:center;padding:30px 20px;color:#ff0048;font-size:17px;font-weight:bold;background:rgba(0,0,0,0.6);border-radius:15px;margin:30px;border:3px solid #ff0048;box-shadow: 0 0 20px #ff0048;">
+    <span>© 2025 追剧PK(zjpk.tv) - 宇宙最硬老司机终极天堂</span><br>
+    <span>站点无敌强，永不打烊</span><br>
+    <span>© 2025 - 追剧PK版权声明</span><br>
+  </div>
 
 appConfig:
   theme: dracula-tweaked
@@ -25,10 +20,8 @@ appConfig:
   backgroundImg: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302
   enableFontAwesome: true
   statusCheck: true
-  lang: zh-CN  # 设置为简体中文
   auth:
-    enabled: false  # 禁用密码登录
-    users: []  # 清空用户配置，确保没有用户存在
+    enabled: false
 
 siteSearch:
   enabled: true
@@ -38,6 +31,8 @@ siteSearch:
 sections:
   - name: 🔥 短剧刷到鸡儿掉（免费白嫖射到虚脱）
     icon: fas fa-fire-flame-curly
+    displayData:
+      collapsed: false  # 默认展开
     items:
       - title: 红果短剧（抖音官方·免费射爆）
         description: 日更几千部最骚最上头短剧·直接白嫖射到肾衰竭
@@ -51,9 +46,15 @@ sections:
         description: 免费集数多到炸裂·每天射到升天三次
         url: https://www.dramaboxapp.com
         icon: favicon
+      - title: 测试链接1
+        description: 示例内容，链接补充
+        url: https://example.com
+        icon: favicon
 
   - name: 🎬 美剧韩剧泰剧BL（4K中字·射到裤子湿）
     icon: fas fa-film
+    displayData:
+      collapsed: false  # 默认展开
     items:
       - title: 美剧天堂（2025最新剧秒更）
         description: 国内最快4K中字·看完直接射穿显示器
@@ -63,11 +64,19 @@ sections:
         description: 最新韩剧泰剧BL实时更新·骚操作看到鸡儿硬到疼
         url: https://hanju.com
         icon: favicon
+      - title: 测试链接2
+        description: 示例内容，链接补充
+        url: https://example.com
+        icon: favicon
+      - title: 测试链接3
+        description: 示例内容，链接补充
+        url: https://example.com
+        icon: favicon
 
   - name: 🖤 国产重口核爆（91麻豆糖心精东日更几万部射到失禁）
     icon: fas fa-skull-crossbones
     displayData:
-      collapsed: true
+      collapsed: false  # 默认展开
       color: "#ff0048"
     items:
       - title: 91最新母系地址（11.22实测最活）
@@ -87,8 +96,10 @@ sections:
         url: https://51cg1.com
         icon: favicon
 
-  - name: 🌸 JAVEL 里番射爆区（日更几百部鸡儿断掉）
+  - name: 🌸 JALLED射爆区（日更几百部鸡儿断掉）
     icon: fas fa-cherry-blossom
+    displayData:
+      collapsed: false  # 默认展开
     items:
       - title: Jable.TV（2025无码真神）
         description: 超清步兵日更几百部·无广告直接射穿裤子
@@ -101,6 +112,8 @@ sections:
 
   - name: 🌍 全球成人核爆（4K射到肾衰竭）
     icon: fas fa-globe
+    displayData:
+      collapsed: false  # 默认展开
     items:
       - title: Pornhub中文站
         description: 全球最大4K/VR/中文·想射啥有啥直接射爆
@@ -110,7 +123,7 @@ sections:
   - name: 🍓 里番H动漫（无码中字射到升天亮）
     icon: fas fa-heart-crack
     displayData:
-      collapsed: true
+      collapsed: false  # 默认展开
     items:
       - title: Hanime1.me（里番宇宙真神）
         description: 4K中字新番秒更·3D同人MMD全收·射到鸡儿掉地上
@@ -120,7 +133,7 @@ sections:
   - name: 🏳️‍⚧️ 人妖SM重口核爆（变态党直接射穿显示器）
     icon: fas fa-transgender-alt
     displayData:
-      collapsed: true
+      collapsed: false  # 默认展开
     items:
       - title: Thai Ladyboy Gold + Ladyboy Vice
         description: 泰国巨根人妖爆操直男4K内射·SM调教滴蜡窒息·射到你当场失禁
@@ -134,7 +147,7 @@ sections:
   - name: 🚖 TG老司机核弹频道（实时更新射到手抽筋）
     icon: fas fa-car-side
     displayData:
-      collapsed: true
+      collapsed: false  # 默认展开
     items:
       - title: 麻豆精东糖心每日核弹
         description: 4K无码剧情最骚每天更新射爆
@@ -143,6 +156,8 @@ sections:
 
   - name: ⚠️ 永不迷路核弹保险（被封了就这样找老子）
     icon: fas fa-life-ring
+    displayData:
+      collapsed: false  # 默认展开
     items:
       - title: TG永不迷路频道（首选！30秒发最新地址）
         description: 站点挂了立刻进这里，我24小时在线发新域名+最新资源
