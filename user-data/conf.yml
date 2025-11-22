@@ -26,11 +26,8 @@ appConfig:
   enableFontAwesome: true
   statusCheck: true
   auth:
-    enabled: false  # 如果你需要后台登录，可以改为 enabled: true
-    users:
-      - username: admin
-        hash: $2a$12$X7sG9k9v4qZQZ9b8i8q1234567890abcdef  # 默认密码8888，自己改成你最变态的数字
-        userType: admin
+    enabled: false  # 禁用密码登录
+    users: []  # 清空用户配置，确保没有用户存在
 
 siteSearch:
   enabled: true
@@ -71,11 +68,6 @@ sections:
     displayData:
       collapsed: true
       color: "#ff0048"
-    widget:
-      type: password
-      options:
-        password: "8888"
-        message: "老司机密码8888，输错直接阳痿"
     items:
       - title: 91最新母系地址（11.22实测最活）
         description: 真实乱伦偷拍日更几万部·硬到鸡儿炸裂天花板
