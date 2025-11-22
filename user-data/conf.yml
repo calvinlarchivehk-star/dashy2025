@@ -26,7 +26,7 @@ appConfig:
   enableFontAwesome: true
   statusCheck: true
   auth:
-    enabled: true
+    enabled: false
     users:
       - username: admin
         hash: $2a$12$X7sG9k9v4qZQZ9b8i8q1234567890abcdef  # 默认密码8888，自己改成你最变态的数字
