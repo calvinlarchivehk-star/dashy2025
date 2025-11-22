@@ -25,6 +25,7 @@ appConfig:
   backgroundImg: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302
   enableFontAwesome: true
   statusCheck: true
+  lang: zh-CN  # 设置为简体中文
   auth:
     enabled: false  # 禁用密码登录
     users: []  # 清空用户配置，确保没有用户存在
@@ -86,7 +87,7 @@ sections:
         url: https://51cg1.com
         icon: favicon
 
-  - name: 🌸 JAV无码射爆区（日更几百部鸡儿断掉）
+  - name: 🌸 JAVEL 里番射爆区（日更几百部鸡儿断掉）
     icon: fas fa-cherry-blossom
     items:
       - title: Jable.TV（2025无码真神）
