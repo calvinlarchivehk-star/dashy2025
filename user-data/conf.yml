@@ -4,7 +4,7 @@ pageInfo:
 
   navLinks:
     - title: 永不迷路备份（jsDelivr国内秒开）
-      path: https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@main/conf.yml
+      path: https://cdn.jsdelivr.net/gh/calvinlarchivehk-star/dashy2025@main/conf.yml
 
 footer: |
   <div style="text-align:center;padding:30px 20px;color:#ff0048;font-size:17px;font-weight:bold;background:rgba(0,0,0,0.6);border-radius:15px;margin:30px;border:3px solid #ff0048;box-shadow: 0 0 20px #ff0048;">
@@ -14,7 +14,7 @@ footer: |
   </div>
 
 appConfig:
-  theme: dracula-tweaked
+  theme: colorful
   layout: auto
   iconSize: large
   backgroundImg: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302
