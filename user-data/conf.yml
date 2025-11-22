@@ -7,7 +7,7 @@ pageInfo:
   footer: |
     <div style="text-align:center;padding:30px 20px;color:#ff0048;font-size:17px;font-weight:bold;background:rgba(0,0,0,0.6);border-radius:15px;margin:30px;border:3px solid #ff0048;box-shadow: 0 0 20px #ff0048;">
       <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-      <span id="busuanzi_container_site_pv">全站已射 <span id="busuanzi_value_site_pv"></span> 次</span> • 
+      <span id="busuanzi_container_site_pv">全站已射 <span id="busuanzi_value_site_pv"></span> 次</span> •
       <span id="busuanzi_container_site_uv">硬核老司机 <span id="busuanzi_value_site_uv"></span> 人</span><br>
       最后更新: <script>
         var d = new Date();
@@ -26,7 +26,7 @@ appConfig:
   enableFontAwesome: true
   statusCheck: true
   auth:
-    enabled: false
+    enabled: false  # 如果你需要后台登录，可以改为 enabled: true
     users:
       - username: admin
         hash: $2a$12$X7sG9k9v4qZQZ9b8i8q1234567890abcdef  # 默认密码8888，自己改成你最变态的数字
