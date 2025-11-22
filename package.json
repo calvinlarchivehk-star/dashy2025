@@ -72,9 +72,9 @@
   },
   "resolutions": {
   "@achrinza/node-ipc": "^10.1.1"
-}
+},
   "engines": {
-    "node": "22.x"
+    "node": "20.x"
   },
   "eslintConfig": {
     "root": true,
